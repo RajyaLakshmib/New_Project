@@ -15,6 +15,6 @@ public class GmailLoginTest {
 	 // WebDriver driver = new ChromeDriver();
 	  
 	  
-	  System.out.println("Sample TestNG code"+g1.Sample()+"test");
+	  System.out.println("Sample TestNG code"+g1.Sample()+"test Abc");
   }
 }
