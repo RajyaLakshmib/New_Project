@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name = "GmailApp">
+<listeners>
+<listener class-name = "GmailApp.ListenerTestNG"></listener>
+</listeners>
+
+<test name = "GmailLoginTest">
+<!-- <parameter name = "browser" value = "Chrome" />    -->
+
+
+
+<classes>
+<!-- <class name = "GmailAppTest.TestApacheExcel" />  -->
+<!--    <class name="GmailAppTest.ListenerTestNGTestCase" /> -->
+<!-- <class name = "GmailAppTest.ParameterisedTest" />  -->
+<!--  <class name  = "GmailAppTest.GmailLoginTest" />  -->
+ <class name = "GmailAppTest.DataProviderClass" />
+ </classes> 
+</test> <!-- Test -->
+</suite> <!-- Suite -->
