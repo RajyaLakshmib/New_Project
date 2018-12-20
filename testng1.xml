@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="retryAnalysersampletest" verbose="1">
+
+<listeners>
+<listener class-name="Analyser.MyTransformation" />
+</listeners>
+
+<test name="sampleTest" >
+<classes>
+<class name="GmailAppTest.GmailLoginTest"/>
+</classes>
+</test>
+</suite>

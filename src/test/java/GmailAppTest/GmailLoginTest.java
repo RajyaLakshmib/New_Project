@@ -4,6 +4,7 @@ import GmailApp.*;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class GmailLoginTest {
@@ -16,5 +17,6 @@ public class GmailLoginTest {
 	  
 	  
 	  System.out.println("Sample TestNG code"+g1.Sample()+"test Abc");
+	  Assert.assertEquals(true,false);
   }
 }
